@@ -158,7 +158,7 @@ public class Signup extends HttpServlet {
         props.put("mail.smtp.socketFactory.fallback", "false");
         props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
 
-        Authenticator auth = new Signup.SMTPAuthenticator("campusepage@gmail.com", "licence2");
+        Authenticator auth = new Signup.SMTPAuthenticator("************@gmail.com", "***********");
 
         Session mailSession = Session.getInstance(props, auth);
 
